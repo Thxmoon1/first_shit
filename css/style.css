@@ -1,0 +1,41 @@
+body{
+	background-color: #FFFFE0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h1, h2{
+	color:red;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.bolder{
+	font-style: italic;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+/* img:hover{
+	transform: scale(1.5);
+	transition: 1s;
+}  */
+
+p, .uppercase{
+	margin-left: 10px;
+}
+
+#test{
+	/* position: relative; */
+	left:0px;
+}
